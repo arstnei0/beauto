@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "beauto": "workspace:*",
+    "vite": "^3.1.4"
+  }
+}
