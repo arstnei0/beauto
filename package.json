@@ -1,0 +1,24 @@
+{
+	"name": "beauto",
+	"version": "0.0.1",
+	"scripts": {
+		"format": "prettier --write .",
+		"build": "vite build",
+		"dev": "vite"
+	},
+	"dependencies": {
+		"prettier": "^2.7.1",
+		"unplugin": "^0.10.2",
+		"vite": "^3.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.7"
+	},
+	"exports": {
+		".": {
+		  "import": "./dist/index.js",
+		  "require": "./dist/index.cjs"
+		}
+	},
+	"type": "module"
+}
